@@ -1,0 +1,15 @@
+struct node
+{
+int date;
+struct node *next;
+}*new,*head,*temp;
+temp=head;
+int value;
+while(temp-next!= null)
+       temp=tenp-next;
+new=(struct node*)malloc(size of(struct node));
+printf("enter the value");
+scanf("%d",&value);
+new-date=value;
+temp-next=new;
+new-next=null;
