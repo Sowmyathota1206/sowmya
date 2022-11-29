@@ -1,0 +1,15 @@
+>>> nums = {}
+>>> for i in range(4):
+    nums[i+1] = int(input(f"Enter number {i+1}: "))
+
+    
+Enter number a: 10
+Enter number b: 20
+Enter number c: 30
+Enter number d: 40
+>>> print("All numbers:", list(nums.values()))
+All numbers: [4, 2, 8, 10]
+>>> for k, v in nums.items():
+    if v == max(nums.values()):
+        print(f"{k} is big")
+        break
