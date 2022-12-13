@@ -1,0 +1,6 @@
+test_list = [0,2,4]
+print("Original list is : " + str(test_list))
+print("List index-value are : ")
+for i in range(len(test_list)):
+    print(i, end=" ")
+    print(test_list[i])
